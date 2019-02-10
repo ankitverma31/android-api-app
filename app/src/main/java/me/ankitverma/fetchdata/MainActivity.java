@@ -30,7 +30,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String URL_DATA = "https://api.github.com/search/users?q=language:java+location:india";
+    private static final String URL_DATA = "https://api.github.com/search/users?q=ankit+language:python+location:mumbai";
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
