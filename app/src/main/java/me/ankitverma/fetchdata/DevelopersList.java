@@ -1,6 +1,7 @@
 package me.ankitverma.fetchdata;
 
-public class ListView {
+public class DevelopersList {
+
     private String login;
     private String avatar_url;
     private String html_url;
@@ -17,7 +18,7 @@ public class ListView {
         return html_url;
     }
 
-    public ListView(String login, String gitUrl, String avatar_url) {
+    public DevelopersList(String login, String gitUrl, String avatar_url) {
         this.login = login;
         this.avatar_url = avatar_url;
         this.html_url = gitUrl;
